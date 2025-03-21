@@ -21,7 +21,6 @@ const ProjectCard = ({ project }: Props) => {
       project.images.length - 1 !== prevImage ? prevImage + 1 : 0,
     );
   };
-
   const prevImage = () => {
     setCurrentImage((prevImage) =>
       prevImage === 0 ? project.images.length - 1 : prevImage - 1,
