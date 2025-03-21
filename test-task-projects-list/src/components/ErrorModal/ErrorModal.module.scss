@@ -1,0 +1,36 @@
+.modalBackDrop{
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modalWrapper{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  .closeButton{
+    background: transparent;
+    color: black;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 1001;
+  }
+}
+.modalBody{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-width: 35vw;
+  background-color: rgb(230, 230, 230);
+  color: #121010;
+  padding: 16px;
+  border-radius: 10px;
+
+}
