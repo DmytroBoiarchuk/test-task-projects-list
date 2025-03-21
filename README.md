@@ -27,9 +27,9 @@ This is a test task for a React Junior position. The project displays a responsi
     npm install
     ```
 3.Start the development server:
-    ```bash
+```bash
     npm run dev
-    ```
+```
 
 ## Deployment
 The project is deployed at: [https://test-task-projects-list-boiarchuk.netlify.app/]
