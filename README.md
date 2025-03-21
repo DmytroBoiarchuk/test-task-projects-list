@@ -15,7 +15,7 @@ This is a test task for a React Junior position. The project displays a responsi
 - **Icons** – Utilizes `react-icons` for enhanced UI.  
 - **Custom Hooks** – Encapsulates reusable logic for better code organization.  
 
-## 🔧 Installation  
+## Installation  
 
 1. Clone the repository:  
    ```bash
