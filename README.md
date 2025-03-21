@@ -23,9 +23,9 @@ This is a test task for a React Junior position. The project displays a responsi
    cd test-tast-projects-list
    ```
 2. Install dependencies:
-    ```bash
+   ```bash
     npm install
-    ```
+   ```
 3.Start the development server:
    ```bash
     npm run dev
