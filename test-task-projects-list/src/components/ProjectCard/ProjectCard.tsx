@@ -32,7 +32,6 @@ const ProjectCard = ({ project }: Props) => {
   };
   return (
     <li className={classes.card} key={project._id}>
-      <div>
         <div
           className={classes.imageBox}
           onMouseEnter={toggleArrows}
@@ -83,7 +82,6 @@ const ProjectCard = ({ project }: Props) => {
             </span>
           </div>
         </div>
-      </div>
     </li>
   );
 };
