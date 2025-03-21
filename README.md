@@ -20,7 +20,7 @@ This is a test task for a React Junior position. The project displays a responsi
 1. Clone the repository:  
    ```bash
    git clone https://github.com/DmytroBoiarchuk/test-tast-projects-list.git
-   cd project-grid-task
+   cd test-tast-projects-list
    ```
 2. Install dependencies:
     ```bash
