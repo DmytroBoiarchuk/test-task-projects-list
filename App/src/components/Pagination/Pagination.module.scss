@@ -1,0 +1,30 @@
+.pagination{
+  display: flex;
+
+
+}
+.activeButton {
+  width: 60px;
+  background-color: blue;
+  color: white;
+}
+.button {
+  width: 60px;
+}
+
+@media (max-width: 768px) {
+  .pagination{
+    button{
+      padding: 20px;
+    };
+  }
+}
+
+@media (max-width: 480px) {
+  .pagination{
+    button{
+      padding: 15px;
+    };
+  }
+
+}
