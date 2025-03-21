@@ -26,7 +26,7 @@ This is a test task for a React Junior position. The project displays a responsi
    ```bash
     npm install
    ```
-3.Start the development server:
+3. Start the development server:
    ```bash
     npm run dev
    ```
