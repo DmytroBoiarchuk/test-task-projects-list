@@ -1,6 +1,6 @@
 import { usePagination } from "../../hooks/usePagination.ts";
 import { ProjectsResponseInterface } from "../../interfaces";
-import { Dispatch, SetStateAction, useEffect } from "react";
+import { Dispatch, SetStateAction } from "react";
 import classes from "./Pagination.module.scss";
 
 interface Props {
@@ -18,9 +18,7 @@ const Pagination = ({ responseObj, setCurPage, curPage }: Props) => {
     prevIntPage,
     paginationToRender,
   ] = usePagination(responseObj, setCurPage);
-  useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }, [curPage]);
+
   return (
     <div className={classes.pagination}>
       <button onClick={prevPage}>Prev</button>
@@ -28,7 +26,9 @@ const Pagination = ({ responseObj, setCurPage, curPage }: Props) => {
       {paginationToRender.map((pageNumber) => (
         <button
           onClick={() => setCurPage(pageNumber - 1)}
-          className={curPage + 1 === pageNumber ? classes.activeButton : classes.button}
+          className={
+            curPage + 1 === pageNumber ? classes.activeButton : classes.button
+          }
           key={pageNumber}
         >
           {pageNumber}

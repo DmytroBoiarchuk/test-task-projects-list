@@ -21,6 +21,8 @@
 }
 
 .loading{
+  position: absolute;
+  left: 50%;
   animation: spin 1s linear infinite;
 }
 

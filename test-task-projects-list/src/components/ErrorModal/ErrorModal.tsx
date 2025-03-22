@@ -23,7 +23,7 @@ const ErrorModal = ({
     ) {
       setModalIsShown(false);
     }
-  }
+  };
 
   // block scroll while modal is shown
   useEffect(() => {
