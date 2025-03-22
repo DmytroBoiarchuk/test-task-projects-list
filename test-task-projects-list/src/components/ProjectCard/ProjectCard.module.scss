@@ -38,6 +38,10 @@
     }
   }
   .infoBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
     box-sizing: border-box;
     padding: 0 20px;
     width: 100%;
@@ -56,11 +60,17 @@
       justify-content: space-evenly;
       align-items: center;
       color: #71706f;
+      margin-left: 5px;
+      span{
+        margin-right: 10px;
+      }
+    }
+    .mapMarker{
+      margin-bottom: 25px;
     }
     span {
       display: flex;
       align-items: center;
-      margin-top: 10px;
       svg {
         margin-right: 5px;
       }

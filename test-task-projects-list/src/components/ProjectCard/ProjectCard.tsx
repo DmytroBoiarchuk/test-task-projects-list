@@ -4,7 +4,7 @@ import { useState } from "react";
 import { FaBed, FaBath } from "react-icons/fa6";
 import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
 import { TbMeterSquare } from "react-icons/tb";
-import { LiaMapMarkerSolid } from "react-icons/lia";
+import { PiMapPinLine } from "react-icons/pi";
 import * as React from "react";
 import { useMedia } from "../../hooks/useMedia.ts";
 
@@ -61,8 +61,8 @@ const ProjectCard = ({ project }: Props) => {
             <p className={classes.price}>${project.generalInfo.price}</p>
           </div>
 
-          <span>
-            <LiaMapMarkerSolid size={25} />
+          <span className={classes.mapMarker}>
+            <PiMapPinLine size={25} />
             {project.generalInfo.province}
           </span>
           <div className={classes.parametersBlock}>
